@@ -1,0 +1,26 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+# body
+
+{
+  "email": "PlumYu1124@qq.com",
+  "password":"666"
+}
+
+###
+GET http://127.0.0.1:8000/user/list?page=2&size=20
+
+###
+GET http://127.0.0.1:8000/movie/list?page=10&size=20

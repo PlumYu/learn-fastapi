@@ -9,3 +9,21 @@ GET http://127.0.0.1:8000/hello/User
 Accept: application/json
 
 ###
+POST http://127.0.0.1:8000/user/add
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/user/select/25
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/user/select
+Accept: application/json
+
+###
+DELETE http://127.0.0.1:8000/user/delete/13
+Accept: application/json
+
+###
+PUT http://127.0.0.1:8000/user/update/25
+Accept: application/json
